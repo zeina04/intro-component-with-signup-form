@@ -131,15 +131,12 @@ input:focus,
 } */
 
 @media (max-width: 768px) {
-    body{
-        background: url('../images/bg-intro-desktop.png') no-repeat;
-    }
     main{
-        padding: 40px 10px;
+        padding: 40px 5px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: url(/images/bg-intro-desktop.png);
+        background: url('../images/bg-intro-desktop.png');
         background-color: hsl(172, 89%, 30%);
     }
     section{
